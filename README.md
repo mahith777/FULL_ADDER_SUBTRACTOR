@@ -37,10 +37,25 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
-<img width="91" height="261" alt="Screenshot 2025-10-08 092729" src="https://github.com/user-attachments/assets/ff686414-743c-4e40-89a8-795be0fd5b97" />
+
+<img width="585" height="663" alt="image" src="https://github.com/user-attachments/assets/d10dedd9-bbb5-4024-b29a-c34a4f07d3a6" />
+
+<img width="768" height="705" alt="image" src="https://github.com/user-attachments/assets/175de7b5-0509-4ad9-aa45-f7a83cd84513" />
 
 **Procedure**
 
+**Full Adder:**
+1.Open Quartus II and create a new project.
+2.Use schematic design entry to draw the full adder circuit. 
+3.The circuit consists of XOR, AND, and OR gates. 
+4.Compile the design, verify its functionality through simulation. 
+5.Implement the design on the target device and program it.
+
+**Full Subtractor:** 
+1.Follow the same steps as for the full adder. 
+2.Draw the full subtractor circuit using schematic design. 
+3.The circuit includes XOR, AND, OR gates to perform subtraction. 
+4.Compile, simulate, implement, and program the design similarly to the full adder.
 
 **Program:**
 module FAHA1 (a,b,c,x,y,z,sum,dif,car,bor);
