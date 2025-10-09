@@ -69,6 +69,8 @@ endmodule
 
 
 **RTL Schematic**
+
+
 <img width="757" height="566" alt="FULL AND HALF ADDER" src="https://github.com/user-attachments/assets/3712fb11-d08c-4805-b842-36c00d330c94" />
 
 **Output Timing Waveform**
